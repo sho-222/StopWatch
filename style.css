@@ -1,0 +1,46 @@
+body{
+	background-image: url("./img/background-img.jpg");  /*1024/867*/
+	background-color:rgba(255,255,255,0.4);
+	background-blend-mode:lighten;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Courier New', monospace;
+	font-size: 14px;
+	position: relative;
+}
+
+.container{
+	margin: 20px auto;
+	width: 730px;
+	padding: 15px;
+	text-align: center;
+	position: absolute;
+	top: 200px; /*180*/
+	left: 450px; /*262*/
+}
+
+#timer{
+	height: 120px;
+	line-height: 120px;
+	margin-bottom: 15px;
+	font-size: 90px;
+}
+
+.btn{
+	width: 270px;
+	height: 45px;
+	line-height: 25px;
+	font-weight: bold;
+	cursor: pointer;
+	user-select: none;
+	font-size: 35px;
+}
+
+.controls{
+	display: flex;
+	justify-content: space-between;
+}
+
+.inactive{
+	opacity: 0.5;
+}
